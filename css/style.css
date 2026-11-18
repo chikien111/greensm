@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* layout general
+ -----------------------------------------------------*/
+/* general setting
+ -----------------------------------------------------*/
+* {
+  outline: transparent;
+}
+
+
+body {
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: calc(4px + 1vw);
+  color: #333;
+  line-height: 1.5;
+  background: #FFF;
+}
+
+a {
+  color: #0bb4b7;
+  -webkit-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+a:hover {
+  text-decoration: none;
+  color: #0bb4b7;
+}
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+  margin-bottom: 22px;
+}
+p:last-child {
+  margin-bottom: 0px;
+}
+
+input[type=submit] {
+  border: none;
+  -webkit-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.md-desktop{
+    display: block;
+}
+.md-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    .md-desktop{
+        display: none;
+    }
+    .md-mobile{
+        display: block;
+    }
+}
+
+
