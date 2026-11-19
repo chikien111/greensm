@@ -404,3 +404,33 @@ nav a:hover {
         font-size: 28px;
     }
 }
+p.my-phone{
+    position: relative;
+}
+#copyToast {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: #222;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 99999;
+}
+
+#copyToast.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+.seo-content{
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
