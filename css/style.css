@@ -73,7 +73,7 @@ nav a:hover {
 .hero {
     height: 100vh;
     background:
-    url('../images/img.png') no-repeat;
+    url('../images/img.webp') no-repeat;
     background-size: 100% 100%;
     background-position: center;
     position: relative;
@@ -384,7 +384,7 @@ nav a:hover {
 }
 @media (min-width: 768px){
     .hero{
-            background: url(../images/img-mb.png) no-repeat;
+            background: url(../images/img-mb.webp) no-repeat;
             background-size: 100% auto;
     }
     .img-phone{
