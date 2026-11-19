@@ -377,6 +377,9 @@ nav a:hover {
         transform: translateX(-50%);
         bottom: 7%;
     }
+    .hero h1{
+        font-size: 28px;
+    }
 
 }
 @media (min-width: 768px){
@@ -391,9 +394,13 @@ nav a:hover {
 
 @media (max-width: 400px){
     .hero-buttons a{
-        width: 25%;
+        width: 24%;
     }
     .hero-buttons{
         bottom: 8%;
+        width: 30%;
+    }
+    .hero h1{
+        font-size: 28px;
     }
 }
