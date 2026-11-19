@@ -74,7 +74,7 @@ nav a:hover {
     height: 100vh;
     background:
     url('../images/img.png') no-repeat;
-    background-size: auto 100%;
+    background-size: 100% 100%;
     background-position: center;
     position: relative;
 
@@ -389,3 +389,11 @@ nav a:hover {
     }
 }
 
+@media (max-width: 400px){
+    .hero-buttons a{
+        width: 25%;
+    }
+    .hero-buttons{
+        bottom: 8%;
+    }
+}
